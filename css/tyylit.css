@@ -2,3 +2,8 @@ body
 img
 { margin: 10px }
 #eka { float: left; } #toka { clear: both; float: right; }
+
+table, th, td 
+{
+    border: 1px solid black;
+  }
