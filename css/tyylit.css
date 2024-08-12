@@ -1,6 +1,3 @@
 body 
 img
-{
-    clear: both;
-    float: left;
-}
+#eka { float: left; } #toka { clear: both; float: right; }
