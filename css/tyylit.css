@@ -4,6 +4,17 @@ img
 #eka { float: left; } #toka { clear: both; float: right; }
 
 table
-{
-    border: 1px solid black;
-  }
+{border: 1px solid black;
+
+border-collapse: collapse;
+
+}
+
+
+td
+
+{border: 1px solid black;}
+
+th
+
+{border: 1px solid black;}
