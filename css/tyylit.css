@@ -3,7 +3,7 @@ img
 { margin: 10px }
 #eka { float: left; } #toka { clear: both; float: right; }
 
-table, th, td 
+table
 {
     border: 1px solid black;
   }
