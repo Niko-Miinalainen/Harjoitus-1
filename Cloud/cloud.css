@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    text-align: center;
+
+}
+.tervetuloa{
+    text-align: center;
+    font-weight: bold;
+}
+aside {
+    float: right;
+    border: lightblue, solid;
+    width: 400px;
+    height: 450px;
+    text-align: left;
+    margin-left: 50px;
+}
+.input{
+    align-items: center;
+    width: 150px;
+    height: 15px;
+}
+.sivuteksti{
+    padding: 15px;
+}
+
+.nimi, .number, .email, .yritys{
+   font-weight: bold;
+   color: black;
+}
+
+#vaaditut{
+    font-style: italic;
+
+}
+
+
+.footer{
+    opacity: 0.5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#testimonial{
+    float: left;
+    width: 80px;
+    margin: 1px;
+}
+#pohjateksti{
+    padding-left: 50px;
+}

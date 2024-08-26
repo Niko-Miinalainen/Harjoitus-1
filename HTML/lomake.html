@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomake</title>
+<style>
+          body {
+        width: 450px;
+        margin: 0 auto;
+      }
+      form {
+        background-color: aquamarine;
+        padding: 5px 20px;
+        height: 650px;
+      }
+      label {
+        display: block;
+        width: 10em;
+        float: left;
+        clear: left;
+      }
+      input,
+      textarea,
+      select {
+        width: 10em;
+        float: left;
+      }
+      .cb,
+      .rb {
+        margin-left: 10em;
+        margin-right: -100px;
+      }
+    
+      input[type="submit"] {
+        margin-left: 12em;
+        width: 140px;
+      }
+      .alas{
+        top: 20px;
+      }
+</style>
+</head>
+<body>
+    <form>
+    <h1>Lomake</h1>
+    <label for="nimi">Nimi:</label>
+    <input type="text" id="nimi">
+    <label for="email">Sähköposti:</label>
+    <input type="email" id="emai">
+    <label for="password">Salasana:</label>
+    <input type="password" id="password">
+    <label for="number">Numero:</label>
+    <input type="number" id="number">
+    <label for="textarea">Tekstialue</label>
+    <textarea id="textarea" cols="10" rows="10"></textarea>
+    <label for="dropdown">Pudotusvalikko:</label>
+    <select id="kissat">
+        <option value="Siamilainen">Siamilainen</option>
+        <option value="Sfinx">Sfinx</option>
+        <option value="Persialainen">Persialainen</option>
+        <option value="Norjalainen">Norjalainen Metsäkissa</option>
+        <option value="MaineCoon">Maine Coon</option>
+    </select>
+    <label for="osaan">Osaan:</label>
+    <label for="checkbox" class="cb">HTML</label>
+    <input type="checkbox" id="HTML">
+    <label for="checkbox" class="cb">CSS</label>
+    <input type="checkbox" id="CSS">
+    <label for="checkbox" class="cb">JavaScript</label>
+    <input type="checkbox" id="JavaScript">
+    <label for="syönkoulussa">Syön koulussa:</label>
+    <label for="syön" class="rb">Syön</label>
+    <input type="radio" id="syön" name="syö">
+    <label for="ensyö"  class="rb">En syö</label>
+    <input type="radio" id="ensy"  name="syö">
+    <label for="color">Väri</label>
+    <input type="color" id="color">
+    <label for="date">Päivämäärä</label>
+    <input type="date"  id="distance">
+    <label for="week">Viikko</label>
+    <input type="week"  id="week">
+    <label for="month">Kuukausi</label>
+    <input type="month" id="month">
+    <label for="range">Liukuvalitsin</label>
+    <input type="range" id="range"  list="markers">
+    <datalist id="markers">
+        <option value="0" label="0"></option>
+        <option value="25" label="25"></option>
+        <option value="50"  label="50"></option>
+        <option value="75" label="75"></option>
+        <option value="100" label="100"></option>
+    </datalist>
+    <p class="alas"> <label for="URL">URL</label>
+      <input type="url" id="url"></p>
+      <input type="submit"  value="Lähetä">
+
+
+
+
+
+    </form>
+</body>
+</html>
