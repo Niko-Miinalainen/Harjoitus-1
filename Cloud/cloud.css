@@ -1,5 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+hr{
+    height: 2px;
+    border-width: 0;
+    color: lightblue;
+    background-color: lightblue;
+
 }
 .header{
     text-align: center;
@@ -16,9 +25,9 @@ aside {
     height: 450px;
     text-align: left;
     margin-left: 50px;
+    background-color: lightgray;
 }
 .input{
-    align-items: center;
     width: 150px;
     height: 15px;
 }
@@ -30,22 +39,49 @@ aside {
    font-weight: bold;
    color: black;
 }
+#nimi{
+    margin-left: 70px;
+}
+#number{
+    margin-left: 53px;
+}
+
+#email{
+    margin-left: 19px;
+}
+#yritys{
+    margin-left: 68px;
+}
+
+#lista1, #lista2, #lista3, #lista4{
+    padding: 1px;
+}
 
 #vaaditut{
     font-style: italic;
+    float:left
 
 }
+#Lähetä{
+    float: right;
 
-
+}
+.lista{
+    width: auto;
+}
 .footer{
     opacity: 0.5;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-left: 2px;
+    padding-top: 2px;
 }
 #testimonial{
     float: left;
-    width: 80px;
+    width: 70px;
     margin: 1px;
+    padding-right: 10px;
+
 }
 #pohjateksti{
     padding-left: 50px;
