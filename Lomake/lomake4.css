@@ -1,11 +1,13 @@
-main{
-    width: 200px;
+main {
+  width: 200px;
 }
-th, td, table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
+th,
+td,
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
 }
-.painike{
-    text-align: center;
+.painike {
+  text-align: center;
 }

@@ -1,21 +1,21 @@
-main{
-    border: 5px black solid;
-    width: 300px;
-    background-color: gold;
+main {
+  border: 5px black solid;
+  width: 300px;
+  background-color: gold;
 }
 
-
-header{
-    background-color: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    font-size: 32px;
-    color: white;
-    padding: 10px;
-
+header {
+  background-color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  padding: 10px;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   width: 90%;
   margin: 5px 10px;
   height: 30px;
