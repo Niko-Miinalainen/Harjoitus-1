@@ -1,0 +1,93 @@
+#Logorotta{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 8px;
+}
+body{
+    background-color: gold;
+}
+h1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4px;
+    font-size: 4em;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 2em;
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+h3{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: cursive;
+}
+
+header li{
+    float: right;
+    list-style-type: none;
+    padding: 4px;
+    font-size: 40px;
+    margin: 4px;
+}
+#Kuvarotta{
+    width: 1440px;
+    height: 400px;
+    padding: 4px;
+    margin: 4px;
+}
+#Sivurotta{
+    width: 130px;
+    height: 130px;
+}
+section article{
+    width: 50%;
+
+}
+section aside{
+    width: 40%;
+    float: right;
+    background-color:red;
+    text-align: center;
+    border-radius: 10px;
+}
+.alakuvat{
+    width: 100px;
+    height: 100px;
+}
+#alakuvat{
+    float: left;
+    
+}
+#osoite{
+    float: left;
+    margin-right: 400px;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+#hyvätlinkit{
+    float: right;
+    margin-right: 100px;
+    text-align: center;
+    margin-top: -40px;    
+}
+
+footer li{
+    float: right;
+    list-style-type: none;
+    padding: 4px;
+    margin: 4px;
+    font-size: 30px;
+}
