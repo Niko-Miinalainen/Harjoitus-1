@@ -1,0 +1,16 @@
+table {
+  border: 1px black solid;
+}
+th {
+  color: yellow;
+  font-size: 36px;
+  background-color: lightgreen;
+}
+td {
+  width: 150px;
+  border: 2px black solid;
+  background-color: lightskyblue;
+}
+button {
+  width: 133px;
+}

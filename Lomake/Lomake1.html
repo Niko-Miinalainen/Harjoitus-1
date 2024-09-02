@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lomake</title>
+    <link rel="stylesheet" href="lomake1.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2">Registeration document</th>
+      </tr>
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>Address:</td>
+        <td><textarea name="osoite" col="30" row="3"></textarea></td>
+      </tr>
+      <tr>
+        <td>Select game:</td>
+        <td>
+          <input type="checkbox" />Hockey <br />
+          <input type="checkbox" />Football <br />
+          <input type="checkbox" />Badminton <br />
+          <input type="checkbox" />Cricket <br />
+          <input type="checkbox" />Volleyball
+        </td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" />Male
+          <input type="radio" name="gender" />Female
+        </td>
+      </tr>
+      <tr>
+        <td>Select age</td>
+        <td>
+          <select name="ika" id="ika">
+            <option value="zero_to_ten">0 - 10 years</option>
+            <option value="eleven_to_twenty">11 - 20 years</option>
+            <option value="twentyone_to_thirty">21 - 30</option>
+            <option value="thirtyone_to_40">31 - 40</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Select image</td>
+        <td><input type="file" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button>Press me</button>
+          <button>Clear</button>
+          <button>Send</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
