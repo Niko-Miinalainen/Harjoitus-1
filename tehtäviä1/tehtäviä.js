@@ -1,3 +1,4 @@
+// Perus harjoituksia
 console.log("Eka tehtävä")
 console.log("Hei Maailma")
 console.log("-----------------------------------------------------------------------------------")
@@ -83,3 +84,46 @@ function Muunnos(Fahrenheit){
     console.log(Fahrenheit + " Fahrenheit on " + celcius + " Celciusta ")
 }
 Muunnos(483)
+console.log("-----------------------------------------------------------------------------------")
+// Taulukko harjoituksia
+var kauppalista = [];
+kauppalista.push('wiener');
+kauppalista.push('murot');
+kauppalista.push('maito');
+kauppalista.push('juusto');
+kauppalista.push('pinaatti');
+kauppalista.push('vihannekset');
+console.log('Kauppalista:');
+for (var i = 0; i < kauppalista.length; i++) {
+console.log(kauppalista[i]);
+};
+console.log("-----------------------------------------------------------------------------------")
+const names = ["Jarmo", "Jorma", "Eeva", "Pertti", "Liisa"];
+names.push("Jussi")
+console.log(names);
+const pituus = names.length;
+console.log(pituus);
+console.log("-----------------------------------------------------------------------------------")
+// Funktio harjotuksia
+function laskeSumma(param1, param2){
+    return param1 + param2
+}
+console.log(laskeSumma(3, 5))
+console.log("-----------------------------------------------------------------------------------")
+// if else harjoituksia
+function suurempiKuin(a, b){
+
+    if (a > b) {
+        console.log( a + " on suurempi kuin " + b);
+    }
+
+    else if (a < b) {
+        console.log(a + " on pienempi kuin " + b);
+    }
+    else{
+        console.log("Luvut ovat yhtä suuret")
+    }
+}
+suurempiKuin(20, 30)
+suurempiKuin(30, 30)
+suurempiKuin(30, 20)
