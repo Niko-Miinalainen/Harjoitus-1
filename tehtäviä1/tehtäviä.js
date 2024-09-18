@@ -1,3 +1,4 @@
+// Perus harjoituksia
 console.log("Eka tehtävä")
 console.log("Hei Maailma")
 console.log("-----------------------------------------------------------------------------------")
@@ -83,5 +84,3 @@ function Muunnos(Fahrenheit){
     console.log(Fahrenheit + " Fahrenheit on " + celcius + " Celciusta ")
 }
 Muunnos(483)
-
-
