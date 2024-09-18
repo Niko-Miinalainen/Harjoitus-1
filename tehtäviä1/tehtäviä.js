@@ -83,3 +83,5 @@ function Muunnos(Fahrenheit){
     console.log(Fahrenheit + " Fahrenheit on " + celcius + " Celciusta ")
 }
 Muunnos(483)
+
+
