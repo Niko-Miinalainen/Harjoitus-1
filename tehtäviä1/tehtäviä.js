@@ -158,7 +158,7 @@ parillinenPariton(71)
 function laina() {
     let maksu = 5000;
     let korko = 1.02;
-    let aika = 6;
+    let aika = 2;
     let korkosumma;
     let maksettava = maksu;
     for (var i = 1; i <= aika; i++) {
@@ -171,3 +171,14 @@ function laina() {
         + maksettava);
 }
 laina(); 
+
+function Fibonacci() {
+    let fibonacci = [];
+    fibonacci[0] = 0;
+    fibonacci[1] = 1;
+    for (var i = 2; i < 10; i++) {
+        fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+    }
+    console.log(fibonacci);
+}
+Fibonacci();  
