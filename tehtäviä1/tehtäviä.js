@@ -128,14 +128,6 @@ suurempiKuin(20, 30)
 suurempiKuin(30, 30)
 suurempiKuin(30, 20)
 
-function parillinen(luku){
-    if (luku % 2 == 0) {
-        console.log("Luku on parillinen")
-    }
-    else {
-        console.log("Luku on pariton")
-    }
-}
 
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var bigNumbers = numbers.filter(numbers => numbers > 5);
@@ -161,3 +153,21 @@ function parillinenPariton(luku) {
 }
 parillinenPariton(18)
 parillinenPariton(71)
+
+
+function laina() {
+    let maksu = 5000;
+    let korko = 1.02;
+    let aika = 6;
+    let korkosumma;
+    let maksettava = maksu;
+    for (var i = 1; i <= aika; i++) {
+        maksettava = (maksettava * korko);
+    }
+    korkosumma = maksettava - maksu;
+    console.log("Joudut maksamaan "
+        + maksu + " euron lainasta korkoa "
+        + korkosumma + " jolloin maksettavaa tulee yhteensä "
+        + maksettava);
+}
+laina(); 
