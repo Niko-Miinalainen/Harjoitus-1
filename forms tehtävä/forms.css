@@ -1,0 +1,25 @@
+form {
+  padding: 20px;
+  margin: 0 auto;
+  width: 350px;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, cyan, lime);
+  position: absolute;
+  top: 28%;
+  bottom: 28%;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+}
+label {
+  display: inline-block;
+  padding: 5px;
+  width: 150px;
+  color: purple;
+}
+button {
+  margin: 0 165px;
+}
+body {
+  background-image: linear-gradient(to left, purple, gold);
+}
