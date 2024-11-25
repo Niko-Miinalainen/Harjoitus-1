@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="localstorage.css" />
+</head>
+<body>
+    <fieldset>
+        <h1>Lomake</h1>
+        <br>
+        <label for="name">Etunimi ja sukunimi</label>
+        <input type="text" id="name">
+        <label for="adress">Osoite</label>
+        <input type="text" id="adress">
+        <label for="key">Avain</label>
+        <input type="text" id="key">
+        <button onclick="store()">Lisää tiedot</button>
+        <br>
+        <br>
+        <label for="poisto">Poista avain</label>
+        <input type="text" id="remove">
+        <button onclick="remove()">Poista avain</button>
+        <button onclick="removeall()">Poista kaikki</button>
+        <br>
+        <br>
+        <label for="hakukey">Anna haku avain</label>
+        <input type="text" id="hakukey">
+        <button onclick="show()">Näytä tiedot</button>
+        <br>
+        <div id="retrieve"></div>
+    </fieldset>
+</body>
+<script src="localstorage.js"></script>
+</html>
